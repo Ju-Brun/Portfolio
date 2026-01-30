@@ -11,8 +11,18 @@
 .formation{
     display: flex;
     flex-direction: column;
-    margin: 1fr;
-    width: 4fr;
+    margin: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 1fr;
+    @media screen and (max-width : 1024px){
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    @media screen and (max-width : 800px){
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 .forma1{
     margin: 1rem;
