@@ -165,12 +165,13 @@ function footer(F){
             .btn_infos{
                 margin: 1rem;
                 font-size: 1rem;
-                color: #bc0808;
+                color: #efefef;
+                background-color: #bc0808;
                 text-decoration: none;
-                border: 1px solid #000000;
-                transition-duration: 1s;
+                border: 1px solid #bc0808;
                 padding: 0.5rem;
                 border-radius: 10px;
+                transition-duration: 1s;
                 @media screen and (max-width : 601px){
                     margin: 0.8rem;
                     font-size: 0.5rem;
@@ -181,8 +182,9 @@ function footer(F){
                 }
             }
             .btn_infos:hover{
-                transition-duration: 1s
-                box-shadow: 0 0 4em 1em #bc0808;
+                transition-duration: 1s;
+                background-color: #efefef;
+                color: #bc0808;
             }
             .footer{
                 display: flex;

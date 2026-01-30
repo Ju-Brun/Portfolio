@@ -4,7 +4,7 @@
     margin : 1rem;
     padding : 1rem;
     width: 1fr;
-    background-color: #fffff0;
+    background-color: #efefef;
 }
 
 
@@ -31,7 +31,7 @@
     padding: 1rem;
     border: 2px solid #000000;
     border-radius: 15px;
-    background-color: #fffff0;
+    background-color: #efefef;
 }
 
 
@@ -52,7 +52,7 @@
     margin: 1rem;
     padding: 1rem;
     border: 1px solid #000000;
-    background-color: #fffff0;
+    background-color: #efefef;
     border-radius: 15px;
     transition-duration: 1s;
 }
