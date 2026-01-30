@@ -32,12 +32,18 @@ function header(H){
                 margin: 1rem;
                 text-decoration: none;
                 color: #000000;
+                transition-duration: 1s;
                 @media screen and (max-width : 1024px){
                     margin:0.5rem;
                 }
                 @media screen and (max-width : 601px){
                     font-size: 0.8rem
                 }
+            }
+            .btn:hover{
+                transition-duration: 1s;
+                color: #bc0808;
+                text-decoration: underline;
             }
             .btn_accueil{
                 width: 100px ;
@@ -146,6 +152,7 @@ function footer(F){
             .infos{
                 margin: 1rem;
                 font-size: 1rem;
+                color: #bc0808;
                 @media screen and (max-width : 601px){
                     margin: 0.8rem;
                     font-size: 0.5rem;

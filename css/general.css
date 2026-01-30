@@ -23,10 +23,10 @@ button, a, .interactive, input {
 };
 
 
-.fond{ background-color: #fffff0;}
+.fond{ background-color: #bbbbbb;}
 .titre{
     font-size: 3rem;
-    color: #880808;
+    color: #bc0808;
     margin: 1rem;
     text-align: center;
 }
