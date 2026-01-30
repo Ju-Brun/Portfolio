@@ -1,0 +1,28 @@
+/* ------------------------------ souris ------------------------------ */
+*{cursor: none !important;}
+button, a, .interactive, input {
+    cursor: none !important;
+}
+.souris{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -15%);
+    width: 8rem;
+    height: 8rem;
+    background-image: url('../img/dessin/souris.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+    z-index: 9999;
+    @media screen and (max-width : 541px){
+        width: 6rem;
+        height: 6rem;
+    }
+};
+
+
+.fond{ background-color: #efefef;}
+
+

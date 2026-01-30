@@ -1,0 +1,169 @@
+document.addEventListener('DOMContentLoaded',() =>{
+    const souris=document.querySelector('.souris');
+    document.addEventListener('mousemove',(e) =>{
+        requestAnimationFrame(() =>{
+            souris.style.left=e.clientX+'px'
+            souris.style.top=e.clientY+'px'
+        });
+    });
+    document.addEventListener('mousedown', () => {
+        souris.style.backgroundImage="url('./img/dessin/sourisclik.png')"
+    });
+    document.addEventListener('mouseup', () => {
+        souris.style.backgroundImage="url('./img/dessin/souris.png')"
+    });
+});
+
+
+
+function header(H){
+    let h= document.getElementById(H);
+    h.innerHTML=`
+        <img src="./img/dessin/enluminure.png" class="coin_hg" width="300px" height="300px" alt=""/>
+        <img src="./img/dessin/enluminure.png" class="droite" width="300px" height="300px" alt=""/>
+        <div class="header">
+            <a class="btn" href="#projet">Projets</a>
+            <a href="index.html"><img class="btn_accueil" src="./img/dessin/accueil.png"/></a>
+            <a class="btn" href="#contact">Contact&CV</a>
+        </div>
+        <style>
+            .btn{
+                font-size: 1rem;
+                margin: 1rem;
+                text-decoration: none;
+                color: #000000;
+                @media screen and (max-width : 1024px){
+                    margin:0.5rem;
+                }
+                @media screen and (max-width : 601px){
+                    font-size: 0.8rem
+                }
+            }
+            .btn_accueil{
+                width: 100px ;
+                height: 100px ;
+                @media screen and (max-width : 800px){
+                    width: 75px;
+                    height: 75px;
+                }
+                @media screen and (max-width : 400px){
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            .droite{
+                float: right;
+                @media screen and (max-width : 1024px){
+                    width: 150px;
+                    height: 150px;
+                }
+                @media screen and (max-width : 601px){
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+            .coin_hg{
+                float: left;
+                rotate: 270deg;
+                @media screen and (max-width : 1024px){
+                    width: 150px;
+                    height: 150px;
+                }
+                @media screen and (max-width : 601px){
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+            .header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 1rem;
+                margin-bottom: 10rem;
+            }
+        </style>`
+};
+
+function footer(F){
+    let f=document.getElementById(F);
+    f.innerHTML=`
+        <div class="footer">
+            <img src="./img/dessin/enluminure.png" class="coin_bg" width="300px" height="300px" alt=""/>
+            <div class="info">
+                <a class="infos">CV</a>
+                <a class="infos">brunjulian6@gmail.com</a>
+                <a class="infos">06 31 44 44 62</a>
+            </div>
+            <img src="./img/dessin/enluminure.png" class="coin_bd" width="300px" height="300px" alt=""/>
+        </div>
+        
+        
+        <style>
+            .coin_bg{
+                float: left;
+                rotate:180deg ;
+                @media screen and (max-width : 1024px){
+                    width: 150px;
+                    height: 150px;
+                }
+                @media screen and (max-width : 601px){
+                    width: 100px;
+                    height: 100px;
+                }
+                @media screen and (max-width : 361px){
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .coin_bd{
+                float: right;
+                rotate: 90deg;
+                @media screen and (max-width : 1024px){
+                    width: 150px;
+                    height: 150px;
+                }
+                @media screen and (max-width : 601px){
+                    width: 100px;
+                    height: 100px;
+                }
+                @media screen and (max-width : 361px){
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .info{
+                display: flex;
+                flex-dircetion: row;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+                @media screen and (max-width : 601px){
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+            .infos{
+                margin: 1rem;
+                font-size: 1rem;
+                @media screen and (max-width : 601px){
+                    margin: 0.8rem;
+                    font-size: 0.5rem;
+                }
+                @media screen and (max-width : 361px){
+                    margin: 0.5rem;
+                    font-size: 0.4rem;
+                }
+            }
+            .footer{
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+                margin-top : 7rem;
+            }
+        </style>`
+};
+
+
+
+
