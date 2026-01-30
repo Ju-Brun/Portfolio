@@ -20,10 +20,10 @@ button, a, .interactive, input {
         width: 6rem;
         height: 6rem;
     }
-};
+}
 
 
-.fond{ background-color: #fffff0;}
+.fond{background-color: #fffff0;}
 .titre{
     font-size: 3rem;
     color: #bc0808;
