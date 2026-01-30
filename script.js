@@ -94,10 +94,10 @@ function header(H){
 function footer(F){
     let f=document.getElementById(F);
     f.innerHTML=`
-        <div class="footer">
+        <div id="contact" class="footer">
             <img src="./img/dessin/enluminure.png" class="coin_bg" width="300px" height="300px" alt=""/>
             <div class="info">
-                <a class="infos">CV</a>
+                <a class="btn_infos" href="./img/CV.pdf">Mon CV</a>
                 <a class="infos">brunjulian6@gmail.com</a>
                 <a class="infos">06 31 44 44 62</a>
             </div>
@@ -162,11 +162,33 @@ function footer(F){
                     font-size: 0.4rem;
                 }
             }
+            .btn_infos{
+                margin: 1rem;
+                font-size: 1rem;
+                color: #bc0808;
+                text-decoration: none;
+                border: 1px solid #000000;
+                transition-duration: 1s;
+                padding: 0.5rem;
+                border-radius: 10px;
+                @media screen and (max-width : 601px){
+                    margin: 0.8rem;
+                    font-size: 0.5rem;
+                }
+                @media screen and (max-width : 361px){
+                    margin: 0.5rem;
+                    font-size: 0.4rem;
+                }
+            }
+            .btn_infos:hover{
+                transition-duration: 1s
+                box-shadow: 0 0 4em 1em #bc0808;
+            }
             .footer{
                 display: flex;
                 justify-content: space-between;
                 align-content: space-between;
-                margin-top : 7rem;
+                margin-top : 10rem;
             }
         </style>`
 };
