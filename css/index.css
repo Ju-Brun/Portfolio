@@ -22,7 +22,7 @@
     @media screen and (max-width : 800px){
         margin-left: 1rem;
         margin-right: 1rem;
-        
+
     }
 }
 .forma1{
@@ -51,6 +51,12 @@
     padding: 1rem;
     border: 1px solid #000000;
     border-radius: 15px;
+    transition-duration: 1s;
+}
+.card_proj:hover{
+    transition-duration: 1s;
+    box-shadow: 0 0 2em 0.5em #880808;
+    
 }
 
 .comp_proj{
