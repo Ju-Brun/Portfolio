@@ -10,10 +10,6 @@
         align-items: center;
     }
 }
-.bio_bio{
-    margin: 1rem;
-    font-size: 1rem;
-}
 .img_bio{
     margin: 1rem;
     border-radius: 25px;
@@ -48,7 +44,19 @@
     border-radius: 15px;
     box-shadow: 0.5em 0.5em #bc0808;
 }
-
+.titre_forma{
+    font-size: 2rem;
+    color: #000000;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.soustitre_forma{
+    font-size: 2rem;
+    color: #bc0808;
+    margin: 1rem;
+    margin-bottom: 5rem;
+}
 
 
 .projets{

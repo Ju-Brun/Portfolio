@@ -38,4 +38,8 @@ button, a, .interactive, input {
     margin-bottom: 5rem;
     text-align: center;
 }
+.text{
+    margin: 1rem;
+    font-size: 1rem;
+}
 

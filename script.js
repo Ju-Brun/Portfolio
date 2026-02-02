@@ -96,7 +96,7 @@ function footer(F){
     f.innerHTML=`
         <div id="contact" class="footer">
             <img src="./img/dessin/enluminure.png" class="coin_bg" width="300px" height="300px" alt=""/>
-            <div class="info">
+            <div class="boit_info">
                 <a class="btn_infos" href="./img/CV.pdf">Mon CV</a>
                 <a class="infos">brunjulian6@gmail.com</a>
                 <a class="infos">06 31 44 44 62</a>
@@ -138,32 +138,36 @@ function footer(F){
                     height: 80px;
                 }
             }
-            .info{
+            .boit_info{
                 display: flex;
                 flex-dircetion: row;
                 justify-content: space-around;
                 align-items: center;
                 text-align: center;
-                @media screen and (max-width : 601px){
+                @media screen and (max-width : 701px){
                     flex-direction: column;
                     justify-content: center;
                 }
             }
             .infos{
                 margin: 1rem;
+                margin-bottom: 0rem;
                 font-size: 1rem;
                 color: #bc0808;
                 @media screen and (max-width : 601px){
                     margin: 0.8rem;
+                    margin-bottom: 0rem;
                     font-size: 0.5rem;
                 }
                 @media screen and (max-width : 361px){
                     margin: 0.5rem;
+                    margin-bottom: 0rem;
                     font-size: 0.4rem;
                 }
             }
             .btn_infos{
                 margin: 1rem;
+                margin-bottom: 0rem;
                 font-size: 1rem;
                 color: #fffff0;
                 background-color: #bc0808;
@@ -174,10 +178,13 @@ function footer(F){
                 transition-duration: 1s;
                 @media screen and (max-width : 601px){
                     margin: 0.8rem;
+                    margin-bottom: 0rem;
+
                     font-size: 0.5rem;
                 }
                 @media screen and (max-width : 361px){
                     margin: 0.5rem;
+                    margin-bottom: 0rem;
                     font-size: 0.4rem;
                 }
             }
