@@ -23,6 +23,8 @@ button, a, .interactive, input {
 }
 
 
+
+/* ------------------------------ autres ------------------------------ */
 .fond{background-color: #fffff0;}
 .titre{
     font-size: 3rem;
@@ -42,4 +44,7 @@ button, a, .interactive, input {
     margin: 1rem;
     font-size: 1rem;
 }
-
+.img{
+    width: 100%;
+    border-radius: 20px;
+}
