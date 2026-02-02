@@ -31,4 +31,11 @@ button, a, .interactive, input {
     margin-top: 5rem;
     text-align: center;
 }
+.soustitre{
+    font-size: 2rem;
+    color: #000000;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
 

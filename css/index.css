@@ -1,9 +1,29 @@
 .bio{
     margin : 3rem;
-    padding : 2rem;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex: 8fr 2fr;
+    @media screen and (max-width : 1200px){
+        flex-direction: column;
+    }
 }
-
+.bio_bio{
+    margin: 1rem;
+    font-size: 1rem;
+}
+.img_bio{
+    margin: 1rem;
+    border-radius: 25px;
+    width: 30%;
+    @media screen and (max-width : 1200px){
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+}
 
 
 .formation{
@@ -26,8 +46,9 @@
 .forma{
     margin: 1rem;
     padding: 1rem;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 15px;
+    box-shadow: 0.5em 0.5em #bc0808;
 }
 
 
@@ -45,9 +66,8 @@
     }
 }
 .card_proj{
-    margin: 1rem;
+    margin: 2rem;
     padding: 1rem;
-    border: 1px solid #000000;
     background-color: #ffffff;
     border-radius: 15px;
     transition-duration: 1s;
@@ -55,13 +75,30 @@
 .card_proj:hover{
     transition-duration: 1s;
     box-shadow: 0 0 2em 0.5em #bc0808;
+    color: #bc0808;
     
 }
-
 .comp_proj{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: center;
     text-align: center;
+}
+.la_comp_proj{
+    margin: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #bc0808;
+    border-radius: 5px;
+    color: #bc0808;
+    background-color: #fffff0;
+}
+.titre_proj{
+    text-align: center;
+    transition-duration: 1s;
+}
+.img_proj{
+    width: 100%;
+    border-radius: 20px;
 }
