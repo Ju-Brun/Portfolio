@@ -165,7 +165,7 @@ function footer(F){
             .btn_infos{
                 margin: 1rem;
                 font-size: 1rem;
-                color: #efefef;
+                color: #fffff0;
                 background-color: #bc0808;
                 text-decoration: none;
                 border: 1px solid #bc0808;
@@ -183,7 +183,7 @@ function footer(F){
             }
             .btn_infos:hover{
                 transition-duration: 1s;
-                background-color: #efefef;
+                background-color: #fffff0;
                 color: #bc0808;
             }
             .footer{
