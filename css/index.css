@@ -7,6 +7,7 @@
     flex: 8fr 2fr;
     @media screen and (max-width : 1200px){
         flex-direction: column;
+        align-items: center;
     }
 }
 .bio_bio{
@@ -19,10 +20,6 @@
     width: 30%;
     @media screen and (max-width : 1200px){
         width: 60%;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
     }
 }
 
