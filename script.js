@@ -348,26 +348,14 @@ function footer2(F){
                 }
             }
             .infos{
-                margin: 1rem;
-                margin-bottom: 0rem;
+                margin: 0rem;
+                margin-top: 1rem;
                 font-size: 1rem;
                 color: #bc0808;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                @media screen and (max-width : 601px){
-                    margin: 0.8rem;
-                    margin-bottom: 0rem;
-                    font-size: 0.5rem;
-                }
-                @media screen and (max-width : 361px){
-                    margin: 0.5rem;
-                    margin-bottom: 0rem;
-                    font-size: 0.4rem;
-                }
             }
             .btn_infos{
-                margin: 1rem;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                margin-bottom: 0rem;
                 font-size: 1rem;
                 color: #fffff0;
                 background-color: #bc0808;
@@ -376,17 +364,6 @@ function footer2(F){
                 padding: 0.5rem;
                 border-radius: 10px;
                 transition-duration: 1s;
-                @media screen and (max-width : 601px){
-                    margin: 0.8rem;
-                    margin-bottom: 0rem;
-
-                    font-size: 0.5rem;
-                }
-                @media screen and (max-width : 361px){
-                    margin: 0.5rem;
-                    margin-bottom: 0rem;
-                    font-size: 0.4rem;
-                }
             }
             .btn_infos:hover{
                 transition-duration: 1s;
