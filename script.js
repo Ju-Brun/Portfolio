@@ -348,22 +348,29 @@ function footer2(F){
                 }
             }
             .infos{
-                margin: 0rem;
-                margin-top: 1rem;
-                font-size: 1rem;
+                margin: 1rem;
+                font-size: 1.5rem;
                 color: #bc0808;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                @media screen and (max-width : 701px){
+                    margin: 0rem;
+                    margin-top: 1rem;
+                }
             }
             .btn_infos{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                font-size: 1rem;
+                font-size: 1.5rem;
                 color: #fffff0;
+                margin: 1rem;
                 background-color: #bc0808;
                 text-decoration: none;
                 border: 1px solid #bc0808;
                 padding: 0.5rem;
                 border-radius: 10px;
                 transition-duration: 1s;
+                @media screen and (max-width : 701px){
+                    margin: 0rem;
+                }
             }
             .btn_infos:hover{
                 transition-duration: 1s;
