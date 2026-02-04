@@ -159,7 +159,7 @@ function footer(F){
                 @media screen and (max-width : 701px){
                     margin: 0rem;
                     margin-top: 1rem;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                 }
             }
             .btn_infos{
@@ -175,7 +175,7 @@ function footer(F){
                 transition-duration: 1s;
                 @media screen and (max-width : 701px){
                     margin: 0rem;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                 }
             }
             .btn_infos:hover{
