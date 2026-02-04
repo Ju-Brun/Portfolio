@@ -33,6 +33,7 @@ function header(H){
                 text-decoration: none;
                 color: #000000;
                 transition-duration: 1s;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 @media screen and (max-width : 1024px){
                     margin:0.5rem;
                 }
@@ -48,6 +49,7 @@ function header(H){
             .btn_accueil{
                 width: 100px ;
                 height: 100px ;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 @media screen and (max-width : 800px){
                     width: 75px;
                     height: 75px;
@@ -154,6 +156,7 @@ function footer(F){
                 margin-bottom: 0rem;
                 font-size: 1rem;
                 color: #bc0808;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 @media screen and (max-width : 601px){
                     margin: 0.8rem;
                     margin-bottom: 0rem;
@@ -167,6 +170,7 @@ function footer(F){
             }
             .btn_infos{
                 margin: 1rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 margin-bottom: 0rem;
                 font-size: 1rem;
                 color: #fffff0;

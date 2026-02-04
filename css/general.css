@@ -32,6 +32,7 @@ button, a, .interactive, input {
     margin: 1rem;
     margin-top: 5rem;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .soustitre{
     font-size: 2rem;
@@ -39,10 +40,12 @@ button, a, .interactive, input {
     margin: 1rem;
     margin-bottom: 5rem;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text{
     margin: 1rem;
     font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .img{
     width: 100%;
