@@ -1,0 +1,12 @@
+.presentation{
+    margin : 3rem;
+    background-color: #dfdfbe;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex: 8fr 2fr;
+    @media screen and (max-width : 1200px){
+        flex-direction: column;
+        align-items: center;
+    }
+}
