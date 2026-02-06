@@ -201,9 +201,9 @@ function header2(H){
         <img src="../img/dessin/enluminure.png" class="coin_hg" width="300px" height="300px" alt=""/>
         <img src="../img/dessin/enluminure.png" class="droite" width="300px" height="300px" alt=""/>
         <div class="header">
-            <a class="btn" href="#projet">Projets</a>
+            <a class="btn" href="/#projet">Projets</a>
             <a href="/"><img class="btn_accueil" src="../img/dessin/accueil.png"/></a>
-            <a class="btn" href="#contact">Contact&CV</a>
+            <a class="btn" href="/#contact">Contact&CV</a>
         </div>
         <style>
             .btn{
