@@ -58,3 +58,20 @@ button, a, .interactive, input {
         width: 60%;
     }
 }
+.lien{
+    text-decoration: none;
+    color: #dbdfbe;
+    background-color: #bc0808;
+    border: #bc0808 1px solid;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition-duration: 1s;
+    margin-left: 35%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.lien:hover{
+    color: #bc0808;
+    background-color: #dbdfbe;
+    transition-duration: 1s;
+}
