@@ -9,4 +9,18 @@
         flex-direction: column;
         align-items: center;
     }
+    
+}
+
+.boit_img{
+    display: flex;
+    flex-direction: column;
+}
+.img_proj{
+    margin: 1rem;
+    border-radius: 25px;
+    width: 30%;
+    @media screen and (max-width : 1200px){
+        width: 60%;
+    }
 }
