@@ -61,6 +61,7 @@ function header(H){
             }
             .droite{
                 float: right;
+                rotate: 90deg;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
@@ -72,7 +73,6 @@ function header(H){
             }
             .coin_hg{
                 float: left;
-                rotate: 270deg;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
@@ -110,7 +110,7 @@ function footer(F){
         <style>
             .coin_bg{
                 float: left;
-                rotate:180deg ;
+                rotate:270deg ;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
@@ -126,7 +126,7 @@ function footer(F){
             }
             .coin_bd{
                 float: right;
-                rotate: 90deg;
+                rotate: 180deg;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
@@ -240,6 +240,7 @@ function header2(H){
             }
             .droite{
                 float: right;
+                rotate: 90deg;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
@@ -251,7 +252,6 @@ function header2(H){
             }
             .coin_hg{
                 float: left;
-                rotate: 270deg;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
@@ -289,7 +289,7 @@ function footer2(F){
         <style>
             .coin_bg{
                 float: left;
-                rotate:180deg ;
+                rotate:270deg ;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
@@ -305,7 +305,7 @@ function footer2(F){
             }
             .coin_bd{
                 float: right;
-                rotate: 90deg;
+                rotate: 180deg;
                 @media screen and (max-width : 1024px){
                     width: 150px;
                     height: 150px;
