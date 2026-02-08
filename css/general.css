@@ -7,9 +7,9 @@ button, a, .interactive, input {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-80%, -15%);
-    width: 8rem;
-    height: 8rem;
+    transform: translate(-55%, -26%);
+    width: 6rem;
+    height: 6rem;
     background-image: url('../img/dessin/souris.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -17,8 +17,8 @@ button, a, .interactive, input {
     pointer-events: none;
     z-index: 9999;
     @media screen and (max-width : 541px){
-        width: 6rem;
-        height: 6rem;
+        width: 4rem;
+        height: 4rem;
     }
 }
 
