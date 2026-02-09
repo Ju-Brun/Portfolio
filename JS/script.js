@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded',() =>{
         });
     });
     document.addEventListener('mousedown', () => {
-        souris.style.backgroundImage="url('../img/dessin/sourisclik.png')"
+        souris.style.backgroundImage="url('./img/dessin/sourisclik.png')"
     });
     document.addEventListener('mouseup', () => {
-        souris.style.backgroundImage="url('../img/dessin/souris.png')"
+        souris.style.backgroundImage="url('./img/dessin/souris.png')"
     });
 });
 
@@ -19,12 +19,12 @@ document.addEventListener('DOMContentLoaded',() =>{
 function header(H){
     let h= document.getElementById(H);
     h.innerHTML=`
-        <img src="../img/dessin/enluminure.png" class="coin_hg" width="300px" height="300px" alt=""/>
-        <img src="../img/dessin/enluminure.png" class="droite" width="300px" height="300px" alt=""/>
+        <img src="./img/dessin/enluminure.png" class="coin_hg" width="300px" height="300px" alt=""/>
+        <img src="./img/dessin/enluminure.png" class="droite" width="300px" height="300px" alt=""/>
         <div class="header">
-            <a class="btn" href="../#projet">Projets</a>
-            <a href=".."/><img class="btn_accueil" src="../img/dessin/accueil.png"/></a>
-            <a class="btn" href="../#contact">Contact&CV</a>
+            <a class="btn" href="./#projet">Projets</a>
+            <a href=".."/><img class="btn_accueil" src="./img/dessin/accueil.png"/></a>
+            <a class="btn" href="./#contact">Contact&CV</a>
         </div>
         <style>
             .btn{
@@ -97,13 +97,13 @@ function footer(F){
     let f=document.getElementById(F);
     f.innerHTML=`
         <div id="contact" class="footer">
-            <img src="../img/dessin/enluminure.png" class="coin_bg" width="300px" height="300px" alt=""/>
+            <img src="./img/dessin/enluminure.png" class="coin_bg" width="300px" height="300px" alt=""/>
             <div class="boit_info">
                 <a class="btn_infos" href="./img/CV.pdf">Mon CV</a>
                 <a class="infos">brunjulian6@gmail.com</a>
                 <a class="infos">06 31 44 44 62</a>
             </div>
-            <img src="../img/dessin/enluminure.png" class="coin_bd" width="300px" height="300px" alt=""/>
+            <img src="./img/dessin/enluminure.png" class="coin_bd" width="300px" height="300px" alt=""/>
         </div>
         
         
