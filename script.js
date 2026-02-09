@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded',() =>{
         });
     });
     document.addEventListener('mousedown', () => {
-        souris.style.backgroundImage="url('img/dessin/sourisclik.png')"
+        souris.style.backgroundImage="url('../img/dessin/sourisclik.png')"
     });
     document.addEventListener('mouseup', () => {
-        souris.style.backgroundImage="url('img/dessin/souris.png')"
+        souris.style.backgroundImage="url('../img/dessin/souris.png')"
     });
 });
 
