@@ -1,8 +1,8 @@
 /* --------------- La Biograpie --------------- */
 .bio{
-    margin : 3rem;
+    margin-top: 3rem;
+    padding : 3rem;
     background-color: #dfdfbe;
-    border-radius: 25px;
     display: flex;
     flex-direction: row;
     flex: 8fr 2fr;
