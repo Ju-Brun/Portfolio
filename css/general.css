@@ -53,10 +53,7 @@ button, a, .interactive, input {
 }
 .video{
     margin: 1rem;
-    width: 30%;
-    @media screen and (max-width : 1200px){
-        width: 60%;
-    }
+    width: 100%;
 }
 .lien{
     text-decoration: none;

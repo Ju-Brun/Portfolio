@@ -95,9 +95,7 @@
 }
 .card_proj:hover{
     transition-duration: 1s;
-    box-shadow: 0 0 1em 0.1em #bc0808;
-    color: #bc0808;
-    
+    box-shadow: 0 0 1em 0.3em #bc0808;
 }
 .comp_proj{
     display: grid;
@@ -152,6 +150,10 @@
     margin-left: 1rem;
     margin-right: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titre_proj:hover{
+    color: #bc0808;
+    transition-duration: 1s;
 }
 .img_proj{
     width: 100%;
