@@ -28,7 +28,8 @@ function header(H){
         </div>
         <style>
             .btn{
-                font-size: 1rem;
+                font-size: 1.5rem;
+                font-weight: bold;
                 margin: 1rem;
                 text-decoration: none;
                 color: #000000;
@@ -43,7 +44,7 @@ function header(H){
             }
             .btn:hover{
                 transition-duration: 1s;
-                color: #bc0808;
+                text-shadow: 2px 2px 0px #aaaaaa;
                 text-decoration: underline;
             }
             .btn_accueil{
@@ -154,7 +155,7 @@ function footer(F){
             .infos{
                 margin: 1rem;
                 font-size: 1rem;
-                color: #bc0808;
+                font-weight: bold;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 @media screen and (max-width : 701px){
                     margin: 0rem;
@@ -165,11 +166,11 @@ function footer(F){
             .btn_infos{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 font-size: 1rem;
-                color: #fffff0;
+                color: #ffffff;
                 margin: 1rem;
-                background-color: #bc0808;
+                background-color: #000000;
                 text-decoration: none;
-                border: 1px solid #bc0808;
+                border: 2px solid #000000;
                 padding: 0.5rem;
                 border-radius: 10px;
                 transition-duration: 1s;
@@ -180,8 +181,8 @@ function footer(F){
             }
             .btn_infos:hover{
                 transition-duration: 1s;
-                background-color: #fffff0;
-                color: #bc0808;
+                background-color: #ffffff;
+                color: #000000;
             }
             .footer{
                 display: flex;
