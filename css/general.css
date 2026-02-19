@@ -29,16 +29,13 @@ button, a, .interactive, input {
 .titre{
     font-size: 5rem;
     color: #000000;
-    margin: 0rem;
-    margin-top: 5rem;
+    margin: 4rem;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .soustitre{
     font-size: 2rem;
     color: #777777;
-    margin: 0rem;
-    margin-bottom: 5rem;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -21,6 +21,30 @@
 }
 .img_proj{
     margin: 1rem;
-    border-radius: 25px;
+    border-radius: 15px;
     width: 100%;
+}
+.grille{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    grid-row: auto ;
+    @media screen and (max-width : 1024px){
+        grid-template-columns: 50fr 50fr;
+    }
+    @media screen and (max-width : 800px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+.colonne{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.dessins{
+    padding: auto;
+    border-radius: 5px;
+    width: 100%;
+    border: 2px solid #000000;
 }
